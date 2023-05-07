@@ -12,7 +12,7 @@ int main()
 	if(num1%2==0){
 	cout<<num1<<" is even";}
 	else{
-	cout<<num1<<" is not even";}
+	cout<<num1<<" is odd";}
 	cout<<endl;
 	if(num2%2==0){
 	cout<<num2<<" is even";}
