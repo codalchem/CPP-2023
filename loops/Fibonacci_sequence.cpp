@@ -10,11 +10,11 @@ int main()
 	cout<<last<<' '<<current<<' ';
 
 	while(current<10000){
-	
+	int fib = last + current;
 	last=current;
-	current+=last;
+	current=fib;
 	
-	cout<<current<<' ';
+	cout<<fib<<' ';
 }
 
 cout<<"----------The End----------"<<endl;
